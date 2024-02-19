@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/oog6don.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <title>TP Guillaume Ducharme-Vanier</title>
+</head>
+
+<body>
+
+     <!-------------------------- BOUTON BURGER ------------------------------>
+       <input type="checkbox" id="boutonPrincipal">
+       <label for="boutonPrincipal" class="fa-solid fa-bars MenuBurger"></label>
+
+    <!-------------------------- MENU ------------------------------>
+    <div class="menu">
+
+        <!-- Bouton fermée -->
+       <input type="checkbox" id="boutonFerme"> 
+       <label for="boutonFerme" class="fa-solid fa-x BoutonX"></label>
+
+       <!-- Catégorie Menu -->
+        <a class="NomResto" href=""> Ichiraku <br> Kawaki </a>
+        <a href=""> Accueil </a>
+        <a href=""> Menu </a>
+        <a href=""> Réservation </a>
+        <a href=""> À propos </a>
+        <a href=""> Paramètres </a>
+        <input type="checkbox" id="BoutonLangues"> 
+        <label for="BoutonLangues" class="BtnLangues">Langues</label>
+        <a href=""> Panier(0) </a>
+        <img class="image1" src="images/imageMenu/assortiment-plat-delicieux-poke-bowl.png" alt="">
+        <img class="image2" src="Images/imageMenu/vue-dessus-nouilles-dans-assortiment-bol.jpg" alt=""> 
+    </div>
+
+    <!-- Langues --->
+    <div class="Langues">
+        <input type="checkbox" id="BoutonFrancais"> 
+        <label for="BoutonFrancais" class="BtnFrancais">Français</label>
+        <input type="checkbox" id="BoutonAnglais"> 
+        <label for="BoutonAnglais" class="BtnAnglais">English</label>
+    </div> 
+
+  <!-------------------------- HAUT PAGE ------------------------------>  
+   
+ <section class="HautPage">
+
+     <img src="Images/HautPageImage.jpg" alt="">
+     <h1 class="Titre">Notre Menu</h1>
+
+ </section>   
+
+  <!-------------------------- ENTRÉE ------------------------------>  
+
+ <section class="Entrees">
+
+    <h1>Entrées</h1>
+    
+    <input type="checkbox" id="FlecheDroit1">
+    <label for="FlecheDroit1" class="fa-solid fa-chevron-right fleche1"></label>
+
+    <input type="checkbox" id="FlecheGauche1">
+    <label for="FlecheGauche1" class="fa-solid fa-chevron-left fleche2"></label>
+
+    <div class="Scroller">
+        <div class="InfoPlats">
+
+            <div class="Colonne">               
+                <div class="Choix">
+                    <img src="Images/Entrees/1.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Rouleaux impériaux</h2>
+                            <h2 class="Prix"> 5.13$</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/Entrees/2.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Crevettes tempura</h2>
+                            <h2 class="Prix"> 7.19$</h2>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/Entrees/3.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Edamame</h2>
+                            <h2 class="Prix"> 6.10$</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/Entrees/4.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Salade wakamé</h2>
+                            <h2 class="Prix"> 9.29$</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/Entrees/5.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Tako wasabi</h2>
+                            <h2 class="Prix"> 10.29$</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/Entrees/6.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Soupe au boeuf</h2>
+                            <h2 class="Prix"> 8.19$</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/Entrees/7.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Karaage</h2>
+                            <h2 class="Prix"> 9.19$</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/Entrees/8.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Soupe au crevette</h2>
+                            <h2 class="Prix"> 6.39$</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix Choix9">
+                    <img src="Images/Entrees/9.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Soupe aux fruits de mer</h2>
+                            <h2 class="Prix"> 9.19$</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/Entrees/10.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Salade du chef</h2>
+                            <h2 class="Prix"> 8.09$</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ </section>
+
+
+  <!-------------------------- REPAS ------------------------------>  
+
+ <section class="Repas">
+
+    <h1>Repas</h1>
+
+    <input type="checkbox" id="FlecheDroit2">
+    <label for="FlecheDroit2" class="fa-solid fa-chevron-right fleche1"></label>
+
+    <input type="checkbox" id="FlecheGauche2">
+    <label for="FlecheGauche2" class="fa-solid fa-chevron-left fleche2"></label>
+
+    <div class="Scroller">
+        <div class="InfoPlats">
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/images Repas/1.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Poké bowl</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/images Repas/2.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Maki</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/images Repas/3.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Sashimi</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/images Repas/4.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Maki spécial</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/images Repas/5.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Nigiri</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/images Repas/6.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Sumomaki</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/images Repas/7.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Maki de printemps</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/images Repas/8.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Sakura</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/images Repas/9.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Oshizushi</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/images Repas/10.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Chirashi et don</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colonne">
+                <div class="Choix">
+                    <img src="Images/images Repas/11.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Hosomaki</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="Choix">
+                    <img src="Images/images Repas/12.jpg" alt="">
+                    <div class="Definition">
+                        <div class="Carre">
+                            <h2 class="Nom">Ramen</h2>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+ </section>
+
+  <!-------------------------- À PARTAGER ------------------------------>  
+
+ <section class="Partage">
+
+    <h1>À Partager</h1>
+
+    <div class="Scroller">
+        <div class="InfoPlats">
+
+            <div class="Choix">
+                <img src="Images/Partage/1.jpg" alt="">
+                <div class="Definition">
+                    <div class="Carre">
+                        <h2 class="Nom">Combos</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Choix">
+                <img src="Images/Partage/2.jpg" alt="">
+                <div class="Definition">
+                    <div class="Carre">
+                        <h2 class="Nom">Plateaux</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Choix">
+                <img src="Images/Partage/3.jpg" alt="">
+                <div class="Definition">
+                    <div class="Carre">
+                        <h2 class="Nom">Boite à bento poké</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Choix">
+                <img src="Images/Partage/4.jpg" alt="">
+                <div class="Definition">
+                    <div class="Carre">
+                        <h2 class="Nom">Boite à bento sushi</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Choix">
+                <img src="Images/Partage/5.jpg" alt="">
+                <div class="Definition">
+                    <div class="Carre">
+                        <h2 class="Nom">Boite à bento don</h2>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+</div>
+
+ </section>
+
+  <!-------------------------- BOUTON CARTE ------------------------------>  
+
+ <section class="BtnCarte">
+
+        <div class="Btn">
+            <h1>Carte du menu</h1>
+        </div>
+
+ </section>
+
+  <!-------------------------- FOOTER ------------------------------>  
+
+  <footer>
+
+    <div class="footerInfo">
+        <div class="footer1">
+            <h1>Nous retrouver</h1>
+            <h2 class="Rue">156 R. Ann, Montréal</h2>
+                <h2 class="Heures">Lundi-Venredi : 11am-10pm</h2> 
+        
+            <h2 class="Heures"> Samedi-Dimanche : 3Pm-10pm</h2>
+            <h2>(514)-534-8666</h2>
+        </div>
+
+        <div class="footer2">
+            <h1>Navigation</h1>
+            <div class="Nav">
+                <h2>Acceuil></h2>
+                <h2>Commander en ligne></h2>
+                <h2>À propos></h2>
+                <h2>Avis></h2>
+                <h2>Carrière></h2>
+            </div>
+        </div>
+        
+        <div class="footer3">
+            <h1>Rester au courant</h1>
+            <h2 class="Offre">Afin de recevoir des offres uniques et rester à l'affut des meilleurs spéciaux du moment</h2>
+        
+            <div class="Courriel">
+                <h2 class="Courriel2">Votre courriel :</h2>
+                <h2 class="Envoyer">Envoyer</h2>
+            </div>
+        
+            <div class="Icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="Ligne"></h2>
+
+    <div class="Termes">
+        <h2>Politique de confidentialité</h2>
+        <h2>Termes et conditions</h2>
+        <h2>©2023 M&G</h2>
+
+    </div>
+    
+</footer>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

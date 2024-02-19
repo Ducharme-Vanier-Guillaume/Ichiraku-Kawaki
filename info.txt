@@ -1,0 +1,8 @@
+Pour la partie mobile, ce qui est interactif est le menu Burger, qui fait déplacer le menu de gauche à droit. Pour revenir à la page
+d'accueil, il faut cliquer sur le X en haut à gauche. On peut aussi défilé les plats de gauche à droite.
+
+Pour la partie laptop et desktop, le menu devient une barre fixe en haut, nous pouvons maintenant ouvrir une boite de 
+langues. Une fois une langue choisit, la boite disparait. Lorsque l'on hover sur les différents choix du menu, le texte s'affiche en rouge.
+Nous pouvons toujours faire défiler les plats de gauche à droite. Cette fois-ci les plats ne sont plus sur deux lignes, mais sur une.
+Le bouton pour afficher le menu PDF changer de couleur lorsqu'on hover le bouton ainsi que celui pour envoyer le courriel dans le 
+footer.
